@@ -1,0 +1,12 @@
+Title: Non-parametric Memory Matching
+Allen Schmaltz, Harvard University
+February 3, 2021
+
+Lab Meeting Talk (virtual); Dr. Kohane's lab, Department of Biomedical Informatics
+
+
+Deep neural networks have exhibited promising effectiveness on a number of research tasks, but challenges in interpreting the large numbers of non-identifiable parameters preclude their use in many settings. Concomitantly, the possibility of annotation errors in the massive datasets needed to train deep networks gives us further pause in considering such models in higher-risk settings. 
+
+In this informal lab talk, we propose an alternative paradigm---and research track---for analyzing neural networks and for analyzing data. The framework, "exemplar auditing", is predicated on an updatable dense database of the task environment, formed by distilled memories/representations from a parametric neural network. The database serves as a bridge between new instances and instances with known labels, accessible via non-parametric matching.
+
+Specifically, we demonstrate this framework on fact verification, a retrieval-classification task. Retrieval-classification tasks encompass a number of real-world settings, whereby we seek a model that retrieves information from an external datastore and then makes a classification decision over the retrieved information. In this context, our modeling decisions yield a sequence-oriented model that is updatable via two distinct mechanisms: The retrieved information can be updated explicitly, and the model behavior can be modified via the dense exemplar database.
