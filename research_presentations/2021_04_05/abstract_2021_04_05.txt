@@ -2,7 +2,7 @@ Title: Coarse-to-Fine Memory Matching for Joint Retrieval and Classification
 Allen Schmaltz, Harvard University
 April 5, 2021
 
-UMass BioNLP group seminar (virtual): Data meets Healthcare; University of Massachusetts at Amherst
+UMass BioNLP group seminar (virtual): Data meets Healthcare; University of Massachusetts (Amherst and Lowell)
 
 
 Deep neural networks have exhibited promising effectiveness on a number of research tasks, but challenges in interpreting the large numbers of non-identifiable parameters preclude their use in many settings. Concomitantly, the possibility of annotation errors in the massive datasets needed to train deep networks gives us further pause in considering such models in higher-risk settings, such as medicine. 
